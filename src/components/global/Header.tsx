@@ -8,7 +8,7 @@ function Header() {
           {"<Ojay />"}
         </a>
 
-        <ul className="flex place-content-between mb-0 ml-0 header__navMenu">
+        <ul className="hidden lg:flex place-content-between mb-0 ml-0 header__navMenu">
           <li className="mb-0">
             <a href="#">Home</a>
           </li>

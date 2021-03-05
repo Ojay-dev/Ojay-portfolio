@@ -31,7 +31,7 @@ import Layout from "../components/layout/Layout"
 function IndexPage() {
   return (
     <Layout>
-      <section className="flex items-center place-content-between hero">
+      <section className=" flex flex-col-reverse lg:flex-row items-center place-content-between hero">
         <div>
           <h2 className="hero__text">
             Hi, I’m <br />
@@ -61,6 +61,7 @@ function IndexPage() {
           // @ts-ignore
           // formats={["AUTO", "WEBP", "AVIF"]}
           alt="Ojonugwa Justice Alikali"
+          className="mb-10 lg:mb-0"
           // style={{ marginBottom: `1.45rem` }}
         />
       </section>
