@@ -61,7 +61,7 @@ function IndexPage() {
           // @ts-ignore
           // formats={["AUTO", "WEBP", "AVIF"]}
           alt="Ojonugwa Justice Alikali"
-          className="mb-10 lg:mb-0"
+          className="mb-8 sm:mb-10 lg:mb-0"
           // style={{ marginBottom: `1.45rem` }}
         />
       </section>
