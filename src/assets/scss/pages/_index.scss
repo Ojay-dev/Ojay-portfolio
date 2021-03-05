@@ -6,15 +6,15 @@
 .hero {
   &__text {
     font-weight: normal;
-    font-size: 50px;
-    line-height: 58px;
+    font-size: 38px;
+    line-height: 40px;
     color: #333333;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 
     &--name {
       font-weight: bold;
-      font-size: 65px;
-      line-height: 76px;
+      font-size: 50px;
+      line-height: 53px;
       color: #333333;
     }
   }
@@ -24,5 +24,23 @@
     font-size: 20px;
     line-height: 138.1%;
     color: rgba(51, 51, 51, 0.8);
+  }
+
+  @media screen and (min-width: 768px) {
+    &__text {
+      font-size: 50px;
+      line-height: 58px;
+      margin-bottom: 55px;
+
+      &--name {
+        font-size: 65px;
+        line-height: 76px;
+      }
+    }
+
+    &__subtext {
+      font-size: 20px;
+      line-height: 138.1%;
+    }
   }
 }
