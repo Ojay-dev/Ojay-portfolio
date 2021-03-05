@@ -1,0 +1,15 @@
+.header {
+  width: 80%;
+  margin: 30px auto;
+  &__logo {
+    width: 50%;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+  }
+
+  &__navMenu {
+    width: 50%;
+  }
+}
